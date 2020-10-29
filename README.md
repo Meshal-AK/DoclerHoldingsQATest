@@ -1,6 +1,6 @@
 ## Technologies used
 
-Jest + Cucumber + Selenium
+Jest + Cucumber + Selenium + Jest-Cucumber-Fusion
 
 ## Project setup
 
