@@ -1,0 +1,20 @@
+{
+  "name": "DoclerHoldings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@cucumber/cucumber": "^7.0.0-rc.0",
+    "chromedriver": "^86.0.0",
+    "env-cmd": "^10.1.0",
+    "jest": "^26.6.1",
+    "jest-cucumber-fusion": "^0.6.11",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "scripts": {
+    "test": "env-cmd -f./config/test.env jest --config ./tests/jest-config.js --detectOpenHandles --color"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
